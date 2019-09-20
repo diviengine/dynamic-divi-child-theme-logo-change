@@ -6,3 +6,31 @@
  Author URI:   https://diviengine.com/
  Template:     Divi
 */
+/* Main logo show */
+#logo.main-logo {
+	display: inline-block;
+}
+/* Fixed logo hide */
+#fixed-logo.fixed-logo {
+	display: none;
+}
+/* Fixed main logo hide */
+.et-fixed-header #logo.main-logo{
+	display: none;
+}
+/* Fixed logo show */
+.et-fixed-header #fixed-logo.fixed-logo{
+	display: inline-block;
+}
+
+#fixed-logo {
+    display: inline-block;
+    float: none;
+    max-height: 54%;
+    margin-bottom: 0;
+    vertical-align: middle;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+}
